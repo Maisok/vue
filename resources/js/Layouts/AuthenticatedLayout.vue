@@ -32,18 +32,18 @@ const showingNavigationDropdown = ref(false);
                                 </NavLink>
                             </div>
 
-                            <div>
-                                <NavLink :href="route('chirps.index')" :active="route().current('chirps.index')">
-                                    Chirps
-                                </NavLink>
-                            </div>
 
-                            <div>
-                                <ResponsiveNavLink :href="route('chirps.index')" :active="route().current('chirps.index')">
-                                    Chirps
-                                </ResponsiveNavLink>
+                            <NavLink :href="route('chirps.index')" :active="route().current('chirps.index')">
+                                Chirps
+                            </NavLink>
 
-                            </div>
+
+<!-- 
+                            <ResponsiveNavLink :href="route('chirps.index')" :active="route().current('chirps.index')">
+                                Chirps
+                            </ResponsiveNavLink> -->
+
+
                         </div>
 
                         <div class="hidden sm:flex sm:items-center sm:ms-6">
